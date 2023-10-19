@@ -1,0 +1,61 @@
+\mode<presentation>
+
+\useinnertheme{rounded}
+% \usecolortheme{bjut}
+
+% Requirement
+% \usepackage{tcolorbox}
+% \tcbuselibrary{skins}
+
+
+\setbeamertemplate{background}{
+  \begin{tikzpicture}
+    \useasboundingbox (0,0) rectangle (\the\paperwidth,\the\paperheight);
+   
+ 
+
+  \ifnum\thepage>1\relax%
+   \fill[white,opacity=1] (0,0) rectangle(\the\paperwidth,\the\paperheight);
+  %  \node (myimage) at (\the\paperwidth,\the\paperheight) {\includegraphics[width=4cm]{Bjut_logo.png}};
+
+   \fi
+  \end{tikzpicture}
+}
+
+% Title page
+% \defbeamertemplate*{title page}{bjut}[1][]
+% { 
+
+
+% \vfill
+% \begin{center}
+%   \begin{beamercolorbox}[center, sep=8pt, #1]{title page header}
+%       % \vskip0.5em\par
+%     \usebeamerfont{title}\inserttitle\par
+%     %% subtitle
+%     \ifx\insertsubtitle\@empty%
+%      \else%
+%         \vskip0.25em\par%
+%         {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
+%      \fi%
+%     % \vskip0.5em\par
+%     \end{beamercolorbox}
+    
+%     \vskip1em \par
+%     \begin{beamercolorbox}[sep=8pt, center, #1]{author}
+%       \usebeamerfont{author}\insertauthor
+%     \end{beamercolorbox}
+%     \begin{beamercolorbox}[sep=8pt,center, #1]{institute}
+%       \usebeamerfont{institute}\insertinstitute
+%    \end{beamercolorbox}
+%     \begin{beamercolorbox}[center]{date}
+%       \usebeamerfont{date}\insertdate%
+%     \end{beamercolorbox}
+
+
+% \end{center}
+% \vfill 
+% }
+
+\mode
+<all>
