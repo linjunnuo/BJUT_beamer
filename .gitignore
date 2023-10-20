@@ -8,4 +8,5 @@
 *.snm
 *.gz
 *.toc
-*/.texpadtmp
+*.texpadtmp
+*.DS_Store
