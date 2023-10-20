@@ -1,0 +1,49 @@
+\mode<presentation>
+
+% Requirement
+\RequirePackage{tikz}
+\usetikzlibrary{positioning, backgrounds, fit}
+\RequirePackage{graphicx}
+\RequirePackage{amssymb}
+\RequirePackage{xcolor}
+\RequirePackage{lmodern}
+\RequirePackage[absolute, overlay]{textpos}
+\setlength{\TPHorizModule}{1cm}
+\setlength{\TPVertModule}{1cm}
+\setlength{\paperwidth}{12.8cm}
+\setlength{\paperheight}{9.6cm}
+%% top-left corner of the page
+
+
+% Settings
+%\useinnertheme{circles}
+%\useoutertheme{infolines}
+%
+%\usecolortheme{orchid}
+%%\usecolortheme{bjut}
+%\usefonttheme{structureitalicserif}
+
+
+\useinnertheme{bjut}
+\useoutertheme{bjut}
+\usecolortheme{bjut}
+\usefonttheme{professionalfonts}
+\setbeamerfont{block title}{size=\large}
+\setbeamertemplate{itemize subitem}[triangle]
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{blocks}[rounded][shadow=true]
+
+
+\definecolor{BGColorOfTitle}{RGB}{0, 168, 255}
+\setbeamercolor{titlelike}{parent=structure,bg=BGColorOfTitle}
+
+
+\setbeamercolor{title}{fg=white, bg=BGColorOfTitle}
+\setbeamercolor*{title page header}{fg=white}
+% \setbeamerfont{date}{size=\large, shape=\upshape}
+% \setbeamerfont{title}{size=\large, shape=\mdseries}
+% \setbeamerfont{institute}{size=\tiny, shape=\itshape}
+
+
+
+\mode<all>
